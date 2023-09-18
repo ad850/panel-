@@ -1,0 +1,41 @@
+.selector-wrapper{
+    padding: 30px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.selector-one{
+    width: 400px;
+    padding: 5px;
+    height: 29px;
+    background-color: gray;
+    color: white;
+    outline: none;
+}
+
+.searchbar{
+    width: 389px;
+    padding: 6px;
+    height: 12px;
+    background-color: gray;
+    color: white;
+    outline: none;
+}
+.values-wrapper{
+    width: 900px;
+    height: 11px;
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.panelvalue{
+    width: 137px;
+    height: 137px;
+    overflow: auto;
+}
+input::placeholder {
+    color: white
+}

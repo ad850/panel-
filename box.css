@@ -1,0 +1,17 @@
+.box-wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 5px;
+    border-bottom: 1px solid gray;
+}
+.close{
+    font-weight: bold;
+}

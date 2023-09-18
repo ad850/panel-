@@ -1,0 +1,13 @@
+.tab-wrapper{
+    display: flex;
+    padding: 8px 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    border-width: thin;
+}
+
+.tab-content:hover{
+   color: green;
+   cursor: pointer;
+}
